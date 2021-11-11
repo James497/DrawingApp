@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="btn" type="submit">Clear</button>
+    <button id="makeRect" type="submit">Rectangle</button>
+    <button id="dragNdrop" type="submit">Make Rectangle draggable</button>
+    <span style="color: red;">Scroll below the canvas for instructions/information </span>
+    <canvas id="canvas" style="border: 1px solid black;"></canvas>
+    <h3 style="color: red;">Instructions/Information:</h3>
+    <ul>
+        <li>
+            To make a rectangle click on the <button>Rectangle</button> button and then drag the mouse over the canvas.
+        </li>
+        <br />
+        <li>
+            To be able to drag the rectangles drawn on the canvas, click on the <button>Make Rectangle draggable</button> button and
+            then proceed to move the cursor over a rectangle.
+            Press down and hold the left click button on the mouse while it is over a rectangle and then move the cursor
+            around the canvas to drag the rectangle.
+        </li>
+        <br />
+        <li>
+            To delete a rectangle on the canvas, simply double click when the mouse is over a rectangle you want to be
+            deleted.
+        </li>
+        <br />
+        <li>
+            <button>Clear</button> button will remove everything that has been drawn on the canvas.
+        </li>
+        <br />
+        <li>
+            <span style="color:red;">[Important]</span> Activating some feature by pressing a button (or double clicking
+            on canvas in case of deleting a specific rectangle) will disable all the previously active feature.
+        </li>
+        <br />
+        <li>
+            <span style="color:red;">[Important]</span> Double clicking anywhere on the canvas outside any of the
+            rectangles also disables all other active features (like
+            drawing rectangles and being able to drag rectangles).
+            So to be able to use the previously active feature like dragging rectangles , reactivate the feature by
+            pressing the <button>Make Rectangle draggable</button> button.
+        </li>
+    </ul>
+    <script src="myScriptsss.js"></script>
+</body>
+</html>
